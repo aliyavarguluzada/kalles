@@ -1,0 +1,152 @@
+/* Defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: light;
+}
+a { 
+   text-decoration: none; 
+}
+li {
+    list-style-type: none;
+}
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+@font-face {
+    font-family: black;
+    src: url(/fonts/Poppins/Poppins-Black.ttf);
+}
+@font-face {
+    font-family: bold;
+    src: url(/fonts/Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: medium;
+    src: url(/fonts/Poppins/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: light;
+    src: url(/fonts/Poppins/Poppins-Light.ttf);
+}
+/* End of the defaults */
+.top-header {
+    background-color: #F6F6F8;
+    padding: 8px 13px;
+  
+}
+#top-header-list-wrapper {
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+}
+
+.top-header-list-item ul {
+    display: flex;
+}
+.top-header-list-item li:first-child {
+    margin-right: 15px;
+    color: #878787;
+}
+.top-header-list-item li a {
+    color:#878787;
+    font-family: medium;
+    font-weight: bold;
+}
+.top-header-list-item span span {
+    color: #ec0101;
+}
+/* End of the Top-header */
+
+/* Bottom-header */
+#bottom-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 8px 13px;
+}
+#logo {
+    width: 20%;
+}
+#logo img {
+    width: 95px;
+    height: 30px;
+}
+#nav {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+#nav-icons {
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+}
+#nav ul {
+    display: flex;
+
+}
+#nav li {
+    position: relative;
+}
+#nav ul li a {
+    padding: 10px;
+    text-transform: capitalize;
+    color: #222;
+    font-size: 13px;
+}
+#nav ul li.active a {
+    color: #ec0101;
+}
+#nav li span {
+    padding: 2px 7px;
+    border-radius: 15px;
+    background-color: red;
+    color: #fff;
+    font-size: 9px;
+    text-transform: capitalize;
+    position: absolute;
+    top: -50%;
+    right: -22%;
+}
+#nav-icons i {
+    margin-right: 20px;
+}
+#nav-icons i:last-child {
+    margin-right: 0px;
+}
+
+/* End of the bottom-header */
+/* End of the header */
+
+/* Banner */
+
+#banner {
+    height: 85vh;
+    background-image: url(/images/slider-01.webp);
+    background-size: cover;
+}
+#banner h1 {
+    font-family: bold;
+    font-size: 3.3em;
+    color: #293341;
+    margin-top: -10px;
+}
+#banner a {
+    text-transform: uppercase;
+    color: #293341;
+    padding: 10px 25px;
+    background-color: #293341;
+    color: #fff;
+    font-family: medium;
+    font-size:  0.7em;
+    margin-top: 10px;
+}
+#banner {
+    display: flex;
+    align-items: center;
+}
+/* End of the Banner */
+
